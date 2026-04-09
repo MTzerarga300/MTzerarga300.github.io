@@ -23,7 +23,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row sm:items-center gap-6 mb-4">
             <div className="w-24 h-24 md:w-32 md:h-32 shrink-0 rounded-full overflow-hidden border-2 border-cyan-500/50 shadow-[0_0_20px_rgba(6,182,212,0.3)]">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400&auto=format&fit=crop" 
+                src="https://media.licdn.com/dms/image/v2/D4E03AQEr2NY7V8lTPA/profile-displayphoto-shrink_400_400/B4EZYwRuU_HgAg-/0/1744566676423?e=1777507200&v=beta&t=oelpXmDZ6TU0qIZ4dopejmHecLc9oGuHAmn64sgKEZo" 
                 alt="ZERARGA Mohamed Tayeb" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -78,7 +78,7 @@ export default function Hero() {
           
           <div className="bg-white p-4 rounded-xl shadow-[0_0_30px_rgba(6,182,212,0.15)] w-[212px] h-[212px] flex items-center justify-center">
             <img 
-              src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://mtzerarga300.github.io/cv.pdf" 
+              src="blob:https://web.telegram.org/342c1bae-2c46-48b6-bf85-851230c607b3" 
               alt="QR Code to download CV" 
               className="w-full h-full object-contain"
             />

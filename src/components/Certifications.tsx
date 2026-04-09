@@ -7,7 +7,7 @@ const certs = [
     title: 'OCI Oracle',
     issuer: 'Oracle',
     icon: Database,
-    image: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=800&auto=format&fit=crop',
+    image: 'https://brm-workforce.oracle.com/pdf/certview/images/OCI25FNDCFAV1.png',
     color: 'from-red-500/20 to-red-900/20',
     borderColor: 'group-hover:border-red-500/50'
   },
@@ -16,7 +16,7 @@ const certs = [
     title: 'HCIA-Security',
     issuer: 'Huawei',
     icon: Shield,
-    image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=800&auto=format&fit=crop',
+    image: 'https://kltstaticcontent.shixizhi.huawei.com/1365189427395223554/certificate/20250725/0d3a1067fa5c4e6bbbe2b7fbbbea0815_EBG20250725000002be4d8a8852204c8ca48b1eac439732e0.png',
     color: 'from-red-500/20 to-slate-900/20',
     borderColor: 'group-hover:border-red-500/50'
   },
@@ -25,7 +25,7 @@ const certs = [
     title: 'HCIA-Datacom',
     issuer: 'Huawei',
     icon: Network,
-    image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc51?q=80&w=800&auto=format&fit=crop',
+    image: 'https://kltstaticcontent.shixizhi.huawei.com/1365189427395223554/certificate/20250713/c53b9a3ce7e44cea98803a282a2c9987_EBG202507130169876b352836a7ed4f70837651cbbcae0e06.png',
     color: 'from-red-500/20 to-slate-900/20',
     borderColor: 'group-hover:border-red-500/50'
   },
@@ -52,7 +52,7 @@ const certs = [
     title: 'Responsive Web Design',
     issuer: 'FreeCodeCamp',
     icon: Code,
-    image: 'https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=800&auto=format&fit=crop',
+    image: 'blob:https://web.telegram.org/9eef7f8c-5e34-499c-8ed2-95369d53873d',
     color: 'from-slate-500/20 to-slate-900/20',
     borderColor: 'group-hover:border-slate-500/50'
   }
