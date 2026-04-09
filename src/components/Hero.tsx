@@ -78,7 +78,7 @@ export default function Hero() {
           
           <div className="bg-white p-4 rounded-xl shadow-[0_0_30px_rgba(6,182,212,0.15)] w-[212px] h-[212px] flex items-center justify-center">
             <img 
-              src="blob:https://web.telegram.org/342c1bae-2c46-48b6-bf85-851230c607b3" 
+              src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://mtzerarga300.github.io/cv.pdf" 
               alt="QR Code to download CV" 
               className="w-full h-full object-contain"
             />

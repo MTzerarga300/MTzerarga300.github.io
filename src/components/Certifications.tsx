@@ -34,7 +34,7 @@ const certs = [
     title: 'HCIA-Cloud Computing',
     issuer: 'Huawei',
     icon: Cloud,
-    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop',
+    image: 'https://kltstaticcontent.shixizhi.huawei.com/1365189427395223554/certificate/20250725/1cade45085e04ace8431aabc9096d7bd_20250725000685a5ee6f0117bb436dbbeec43c51dc5ad7.png',
     color: 'from-red-500/20 to-slate-900/20',
     borderColor: 'group-hover:border-red-500/50'
   },
@@ -52,7 +52,7 @@ const certs = [
     title: 'Responsive Web Design',
     issuer: 'FreeCodeCamp',
     icon: Code,
-    image: 'blob:https://web.telegram.org/9eef7f8c-5e34-499c-8ed2-95369d53873d',
+    image: 'https://selftaughttxg.com/static/51254eb05e6a67e9707f738498366927/aa440/FreeCodeCamp_logo-02.png',
     color: 'from-slate-500/20 to-slate-900/20',
     borderColor: 'group-hover:border-slate-500/50'
   }
