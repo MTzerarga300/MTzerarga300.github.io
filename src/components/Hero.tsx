@@ -1,7 +1,5 @@
 import { motion } from 'motion/react';
 import { ArrowRight, Download, Shield, Cloud } from 'lucide-react';
-import profileImg from '../assets/profile.webp';
-import qrCodeImg from '../assets/qr-cv.png';
 
 export default function Hero() {
   return (
@@ -25,7 +23,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row sm:items-center gap-6 mb-4">
             <div className="w-24 h-24 md:w-32 md:h-32 shrink-0 rounded-full overflow-hidden border-2 border-cyan-500/50 shadow-[0_0_20px_rgba(6,182,212,0.3)]">
               <img 
-                src={profileImg} 
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400&auto=format&fit=crop" 
                 alt="ZERARGA Mohamed Tayeb" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -57,7 +55,7 @@ export default function Hero() {
               <ArrowRight className="w-4 h-4" />
             </a>
             <a
-              href="cv.pdf"
+              href="./cv.pdf"
               target="_blank"
               className="inline-flex items-center gap-2 px-6 py-3 bg-slate-900 text-cyan-400 border border-cyan-500/30 rounded-lg font-medium hover:bg-slate-800 transition-colors"
             >
@@ -80,7 +78,7 @@ export default function Hero() {
           
           <div className="bg-white p-4 rounded-xl shadow-[0_0_30px_rgba(6,182,212,0.15)] w-[212px] h-[212px] flex items-center justify-center">
             <img 
-              src={qrCodeImg} 
+              src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://mtzerarga300.github.io/cv.pdf" 
               alt="QR Code to download CV" 
               className="w-full h-full object-contain"
             />

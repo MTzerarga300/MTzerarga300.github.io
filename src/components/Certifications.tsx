@@ -1,11 +1,5 @@
 import { motion } from 'motion/react';
 import { Award, Database, Shield, Cloud, Cpu, Network, Code } from 'lucide-react';
-import certOci from '../assets/cert-oci.jpg';
-import certSecurity from '../assets/cert-security.jpg';
-import certDatacom from '../assets/cert-datacom.jpg';
-import certCloud from '../assets/cert-cloud.jpg';
-import certAi from '../assets/cert-ai.png';
-import certFcc from '../assets/cert-fcc.jpg';
 
 const certs = [
   {
@@ -13,7 +7,7 @@ const certs = [
     title: 'OCI Oracle',
     issuer: 'Oracle',
     icon: Database,
-    image: certOci,
+    image: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=800&auto=format&fit=crop',
     color: 'from-red-500/20 to-red-900/20',
     borderColor: 'group-hover:border-red-500/50'
   },
@@ -22,7 +16,7 @@ const certs = [
     title: 'HCIA-Security',
     issuer: 'Huawei',
     icon: Shield,
-    image: certSecurity,
+    image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=800&auto=format&fit=crop',
     color: 'from-red-500/20 to-slate-900/20',
     borderColor: 'group-hover:border-red-500/50'
   },
@@ -31,7 +25,7 @@ const certs = [
     title: 'HCIA-Datacom',
     issuer: 'Huawei',
     icon: Network,
-    image: certDatacom,
+    image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc51?q=80&w=800&auto=format&fit=crop',
     color: 'from-red-500/20 to-slate-900/20',
     borderColor: 'group-hover:border-red-500/50'
   },
@@ -40,7 +34,7 @@ const certs = [
     title: 'HCIA-Cloud Computing',
     issuer: 'Huawei',
     icon: Cloud,
-    image: certCloud,
+    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop',
     color: 'from-red-500/20 to-slate-900/20',
     borderColor: 'group-hover:border-red-500/50'
   },
@@ -49,7 +43,7 @@ const certs = [
     title: 'HCIA-AI Overview',
     issuer: 'Huawei',
     icon: Cpu,
-    image: certAi,
+    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=800&auto=format&fit=crop',
     color: 'from-red-500/20 to-slate-900/20',
     borderColor: 'group-hover:border-red-500/50'
   },
@@ -58,7 +52,7 @@ const certs = [
     title: 'Responsive Web Design',
     issuer: 'FreeCodeCamp',
     icon: Code,
-    image: certFcc,
+    image: 'https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=800&auto=format&fit=crop',
     color: 'from-slate-500/20 to-slate-900/20',
     borderColor: 'group-hover:border-slate-500/50'
   }

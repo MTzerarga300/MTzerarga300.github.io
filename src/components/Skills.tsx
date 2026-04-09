@@ -1,7 +1,5 @@
 import { motion } from 'motion/react';
 import { Globe, Languages, Terminal, Server, ShieldCheck, Cloud } from 'lucide-react';
-import certTcf from '../assets/cert-tcf.jpg';
-import certEfset from '../assets/cert-efset.jpg';
 
 export default function Skills() {
   return (
@@ -72,7 +70,7 @@ export default function Skills() {
                 <div className="relative aspect-[4/3] bg-slate-800 p-4">
                   <div className="w-full h-full border border-dashed border-slate-600 rounded-lg flex flex-col items-center justify-center relative overflow-hidden">
                     <img 
-                      src={certTcf} 
+                      src="https://images.unsplash.com/photo-1513297844881-60930c59ef35?q=80&w=800&auto=format&fit=crop" 
                       alt="TCF Certificate" 
                       className="absolute inset-0 object-contain w-full h-full opacity-80 group-hover:opacity-100 transition-opacity duration-500"
                       referrerPolicy="no-referrer"
@@ -93,7 +91,7 @@ export default function Skills() {
                 <div className="relative aspect-[4/3] bg-slate-800 p-4">
                   <div className="w-full h-full border border-dashed border-slate-600 rounded-lg flex flex-col items-center justify-center relative overflow-hidden">
                     <img 
-                      src={certEfset} 
+                      src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=800&auto=format&fit=crop" 
                       alt="EF SET Certificate" 
                       className="absolute inset-0 object-contain w-full h-full opacity-80 group-hover:opacity-100 transition-opacity duration-500"
                       referrerPolicy="no-referrer"
