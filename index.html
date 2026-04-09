@@ -14,7 +14,14 @@
         Loading Portfolio...
       </div>
     </div>
-    <script type="module" src="src/main.tsx"></script>
+    <script>
+      window.onerror = function(msg, url, line, col, error) {
+        document.getElementById('root').innerHTML = '<div style="color: #ef4444; padding: 20px; font-family: sans-serif;">' +
+          '<strong>Error loading portfolio:</strong><br>' + msg + '</div>';
+        return false;
+      };
+    </script>
+    <script type="module" src="./src/main.tsx"></script>
   </body>
 </html>
 
