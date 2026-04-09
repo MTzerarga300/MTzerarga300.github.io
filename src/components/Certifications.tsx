@@ -43,7 +43,7 @@ const certs = [
     title: 'HCIA-AI Overview',
     issuer: 'Huawei',
     icon: Cpu,
-    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=800&auto=format&fit=crop',
+    image: 'https://kltstaticcontent.shixizhi.huawei.com/1365189427395223554/certificate/20250526/e364ab96073a4438aef6fa0219ff5508_ICT202505190521639857b72e223543e69069d79431b2aa89.png',
     color: 'from-red-500/20 to-slate-900/20',
     borderColor: 'group-hover:border-red-500/50'
   },
