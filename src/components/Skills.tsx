@@ -70,7 +70,7 @@ export default function Skills() {
                 <div className="relative aspect-[4/3] bg-slate-800 p-4">
                   <div className="w-full h-full border border-dashed border-slate-600 rounded-lg flex flex-col items-center justify-center relative overflow-hidden">
                     <img 
-                      src="https://images.unsplash.com/photo-1513297844881-60930c59ef35?q=80&w=800&auto=format&fit=crop" 
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQCwOYzfUwAyRtFvMFWAjwL2p3iTpULlrNhgW1lywEIw&s=10" 
                       alt="TCF Certificate" 
                       className="absolute inset-0 object-contain w-full h-full opacity-80 group-hover:opacity-100 transition-opacity duration-500"
                       referrerPolicy="no-referrer"
@@ -91,7 +91,7 @@ export default function Skills() {
                 <div className="relative aspect-[4/3] bg-slate-800 p-4">
                   <div className="w-full h-full border border-dashed border-slate-600 rounded-lg flex flex-col items-center justify-center relative overflow-hidden">
                     <img 
-                      src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=800&auto=format&fit=crop" 
+                      src="https://media.licdn.com/dms/image/v2/D4E0BAQEw-1S8jictTA/company-logo_200_200/B4EZdFpZBcH0AI-/0/1749220168176/efset_logo?e=2147483647&v=beta&t=6oSawi9kiP5eC26OQMVUZXMsRTgFs72Ffgn1-M-psjE" 
                       alt="EF SET Certificate" 
                       className="absolute inset-0 object-contain w-full h-full opacity-80 group-hover:opacity-100 transition-opacity duration-500"
                       referrerPolicy="no-referrer"
