@@ -1,6 +1,5 @@
 import { motion } from 'motion/react';
 import { Award, Database, Shield, Cloud, Cpu, Network, Code } from 'lucide-react';
-import certFcc from '../assets/cert-fcc.jpg';
 
 const certs = [
   {
@@ -53,7 +52,7 @@ const certs = [
     title: 'Responsive Web Design',
     issuer: 'FreeCodeCamp',
     icon: Code,
-    image: certFcc,
+    image: 'assets/certifications/freecodecamp-frontend-cert.png',
     color: 'from-slate-500/20 to-slate-900/20',
     borderColor: 'group-hover:border-slate-500/50'
   }
