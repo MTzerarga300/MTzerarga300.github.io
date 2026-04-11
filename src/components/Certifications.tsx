@@ -52,7 +52,7 @@ const certs = [
     title: 'Responsive Web Design',
     issuer: 'FreeCodeCamp',
     icon: Code,
-    image: 'assets/certifications/freecodecamp-frontend-cert.png',
+    image: './freecodecamp-frontend-cert.png',
     color: 'from-slate-500/20 to-slate-900/20',
     borderColor: 'group-hover:border-slate-500/50'
   }
